@@ -169,7 +169,7 @@
 						<!-- Exclude constants -->
 						<exclude>**/constants/**</exclude>
 						<!-- Exclude auto-configuration -->
-						<exclude>**/SwitchhubSdkAutoConfiguration.class</exclude>
+						<exclude>**/SwitchHubSdkAutoConfiguration.class</exclude>
 					</excludes>
 				</configuration>
 				<executions>
