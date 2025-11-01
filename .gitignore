@@ -1,0 +1,267 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (in case you add Gradle support later)
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
+.apt_generated/
+.apt_generated_test/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JaCoCo Coverage
+jacoco.exec
+*.exec
+
+# Test Coverage
+coverage/
+.nyc_output/
+
+# Spring Boot
+spring-boot-devtools.properties
+
+# JRebel
+rebel.xml
+rebel-remote.xml
+
+# JEnv
+.java-version
+
+# BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs
+hs_err_pid*
+
+# Secrets & Environment Variables
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.jks
+secrets.properties
+application-local.properties
+application-secret.yml
+application-secret.yaml
+
+# GPG Keys
+*.gpg
+*.asc
+secring.*
+
+# Temporary files
+*.tmp
+*.temp
+*.old
+*.orig
+*.save
+
+# Node (if you add any frontend tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Build tools
+.cache/
+.sass-cache/
+
+# Documentation
+*.pdf
+*.doc
+*.docx
+site/
+
+# Backup files
+*.backup
+*.old
+
+# Editor backup files
+*~
+\#*\#
+.#*
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.tar
+*.tgz
+
+# Java Profilers
+*.hprof
+*.jfr
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# PMD
+.pmd/
+
+# Checkstyle
+.checkstyle
+
+# SpotBugs
+.spotbugs/
+
+# JQASSISTANT
+jqassistant/
+
+# Generated documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Local configuration
+local.properties
+config/local/
+
+# Misc
+.factorypath
+.recommenders/
+.metadata/
+RemoteSystemsTempFiles/
