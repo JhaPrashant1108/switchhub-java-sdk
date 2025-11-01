@@ -2,7 +2,7 @@
 
 A Java SDK for SwitchHub - A feature flag and configuration management system that enables dynamic feature toggling with real-time updates.
 
-[![Maven Central](https://img.shields.io/badge/maven--central-v0.0.1-blue)](https://central.sonatype.com/)
+[![Maven Central](https://img.shields.io/badge/maven--central-v1.0.0-blue)](https://central.sonatype.com/)
 [![Java](https://img.shields.io/badge/Java-21-orange)](https://openjdk.org/projects/jdk/21/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.6-brightgreen)](https://spring.io/projects/spring-boot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -37,9 +37,9 @@ Add the following dependency to your `pom.xml`:
 
 ```xml
 <dependency>
-    <groupId>io.switchhub</groupId>
+    <groupId>in.switchhub</groupId>
     <artifactId>switchhub-sdk</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -48,7 +48,7 @@ Add the following dependency to your `pom.xml`:
 Add the following to your `build.gradle`:
 
 ```gradle
-implementation 'io.switchhub:switchhub-sdk:0.0.1'
+implementation 'in.switchhub:switchhub-sdk:1.0.0'
 ```
 
 ## Configuration
@@ -110,7 +110,7 @@ rabbitmq:
 Inject `SwitchUtil` into your Spring components and check feature flags:
 
 ```java
-import io.switchhub.switchhub_sdk.util.SwitchUtil;
+import in.switchhub.switchhub_sdk.util.SwitchUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -192,7 +192,7 @@ if (switchUtil.getSwitchValue("gradual-rollout-feature", context)) {
 ## Project Structure
 
 ```
-src/main/java/io/switchhub/switchhub_sdk/
+src/main/java/in/switchhub/switchhub_sdk/
 ├── components/          # Core components
 │   ├── SharedDataStoreComponent.java      # In-memory cache
 │   ├── StartupComponent.java              # Initialization logic
