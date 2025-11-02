@@ -78,8 +78,8 @@ public class RabbitMQConfig {
         cachingConnectionFactory.setRequestedHeartBeat(envConfig.getRabbitmqRequestedHeartBeat());
 
         // Add connection recovery settings for better resilience
-        cachingConnectionFactory.getRabbitConnectionFactory().setNetworkRecoveryInterval(5000); // Retry every 5 seconds
-        cachingConnectionFactory.getRabbitConnectionFactory().setTopologyRecoveryEnabled(true); // Recover queues/exchanges
+        cachingConnectionFactory.getRabbitConnectionFactory().setNetworkRecoveryInterval(envConfig.getRabbitmqNetworkRecoveryInterval()); // Retry every 5 seconds
+        cachingConnectionFactory.getRabbitConnectionFactory().setTopologyRecoveryEnabled(envConfig.isRabbitmqTopologyRecoverEnabled()); // Recover queues/exchanges
 
         log.info("RabbitMQ connection factory configured with heartbeat: {} seconds, automatic recovery: {}",
                  envConfig.getRabbitmqRequestedHeartBeat(),

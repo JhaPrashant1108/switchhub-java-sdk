@@ -35,6 +35,12 @@ public class EnvConfig {
     @Value("${rabbitmq.connectionTimeout}")
     private int rabbitmqConnectionTimeout;
 
+    @Value("${rabbitmq.networkRecoveryInterval}")
+    private int rabbitmqNetworkRecoveryInterval;
+
+    @Value("${rabbitmq.topologyRecoverEnabled}")
+    private boolean rabbitmqTopologyRecoverEnabled;
+
     @Value("${switchHub.backend.baseUrl}")
     private String switchHubBackendBaseUrl;
 
@@ -81,6 +87,14 @@ public class EnvConfig {
 
     public int getRabbitmqConnectionTimeout() {
         return rabbitmqConnectionTimeout;
+    }
+
+    public int getRabbitmqNetworkRecoveryInterval() {
+        return rabbitmqNetworkRecoveryInterval;
+    }
+
+    public boolean isRabbitmqTopologyRecoverEnabled() {
+        return rabbitmqTopologyRecoverEnabled;
     }
 
     public String getSwitchHubBackendBaseUrl() {

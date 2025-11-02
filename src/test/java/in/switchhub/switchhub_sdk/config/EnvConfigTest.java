@@ -18,6 +18,8 @@ import static org.junit.jupiter.api.Assertions.*;
         "rabbitmq.automaticRecoveryEnabled=true",
         "rabbitmq.requestedHeartBeat=30",
         "rabbitmq.connectionTimeout=60000",
+        "rabbitmq.networkRecoveryInterval=5000",
+        "rabbitmq.topologyRecoverEnabled=true",
         "switchHub.backend.baseUrl=http://localhost:8080",
         "switchHub.sdk.switches=feature1,feature2,feature3",
         "switchHub.sdk.applicationName=test-app",
